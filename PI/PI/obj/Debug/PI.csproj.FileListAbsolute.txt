@@ -1,0 +1,9 @@
+C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.csprojResolveAssemblyReference.cache
+C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.Form1.resources
+C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.csproj.GenerateResource.Cache
+C:\Users\mario\Desktop\PI\PI\bin\Debug\PI.exe.config
+C:\Users\mario\Desktop\PI\PI\bin\Debug\PI.exe
+C:\Users\mario\Desktop\PI\PI\bin\Debug\PI.pdb
+C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.exe
+C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.pdb
