@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using PI.Controllers;
 
 namespace PI
 {
@@ -17,6 +15,9 @@ namespace PI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            CardFileController fileController = new CardFileController();
+            fileController.Test1_Write();
+            fileController.Test1_Read();
         }
     }
 }

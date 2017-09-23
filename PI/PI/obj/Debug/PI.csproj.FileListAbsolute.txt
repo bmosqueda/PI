@@ -7,3 +7,15 @@ C:\Users\mario\Desktop\PI\PI\bin\Debug\PI.exe
 C:\Users\mario\Desktop\PI\PI\bin\Debug\PI.pdb
 C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.exe
 C:\Users\mario\Desktop\PI\PI\obj\Debug\PI.pdb
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\bin\Debug\PI.exe.config
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\bin\Debug\PI.exe
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\bin\Debug\PI.pdb
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.Form1.resources
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.csproj.GenerateResource.Cache
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.exe
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\obj\Debug\PI.pdb
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlos\source\repos\Brainwash\PI\PI\bin\Debug\Newtonsoft.Json.xml
