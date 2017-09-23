@@ -37,6 +37,13 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.bttnIniciar = new System.Windows.Forms.Button();
             this.bttnSigPregunta = new System.Windows.Forms.Button();
+            this.lblFin = new System.Windows.Forms.Label();
+            this.lblBienvenido = new System.Windows.Forms.Label();
+            this.bttnSalir = new System.Windows.Forms.Button();
+            this.lblA = new System.Windows.Forms.Label();
+            this.lblB = new System.Windows.Forms.Label();
+            this.lblC = new System.Windows.Forms.Label();
+            this.lblD = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bttnA
@@ -105,6 +112,7 @@
             this.lblResultado.Size = new System.Drawing.Size(67, 17);
             this.lblResultado.TabIndex = 3;
             this.lblResultado.Text = "resultado";
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bttnIniciar
             // 
@@ -126,11 +134,82 @@
             this.bttnSigPregunta.UseVisualStyleBackColor = true;
             this.bttnSigPregunta.Click += new System.EventHandler(this.bttnSigPregunta_Click);
             // 
+            // lblFin
+            // 
+            this.lblFin.AutoSize = true;
+            this.lblFin.Location = new System.Drawing.Point(255, 78);
+            this.lblFin.Name = "lblFin";
+            this.lblFin.Size = new System.Drawing.Size(89, 17);
+            this.lblFin.TabIndex = 6;
+            this.lblFin.Text = "Fin del juego";
+            // 
+            // lblBienvenido
+            // 
+            this.lblBienvenido.AutoSize = true;
+            this.lblBienvenido.Location = new System.Drawing.Point(255, 144);
+            this.lblBienvenido.Name = "lblBienvenido";
+            this.lblBienvenido.Size = new System.Drawing.Size(78, 17);
+            this.lblBienvenido.TabIndex = 6;
+            this.lblBienvenido.Text = "Bienvenido";
+            // 
+            // bttnSalir
+            // 
+            this.bttnSalir.Location = new System.Drawing.Point(74, 360);
+            this.bttnSalir.Name = "bttnSalir";
+            this.bttnSalir.Size = new System.Drawing.Size(442, 75);
+            this.bttnSalir.TabIndex = 7;
+            this.bttnSalir.Text = "Salir";
+            this.bttnSalir.UseVisualStyleBackColor = true;
+            this.bttnSalir.Click += new System.EventHandler(this.bttnSalir_Click);
+            // 
+            // lblA
+            // 
+            this.lblA.AutoSize = true;
+            this.lblA.Location = new System.Drawing.Point(71, 192);
+            this.lblA.Name = "lblA";
+            this.lblA.Size = new System.Drawing.Size(46, 17);
+            this.lblA.TabIndex = 8;
+            this.lblA.Text = "label1";
+            // 
+            // lblB
+            // 
+            this.lblB.AutoSize = true;
+            this.lblB.Location = new System.Drawing.Point(197, 192);
+            this.lblB.Name = "lblB";
+            this.lblB.Size = new System.Drawing.Size(46, 17);
+            this.lblB.TabIndex = 8;
+            this.lblB.Text = "label1";
+            // 
+            // lblC
+            // 
+            this.lblC.AutoSize = true;
+            this.lblC.Location = new System.Drawing.Point(317, 192);
+            this.lblC.Name = "lblC";
+            this.lblC.Size = new System.Drawing.Size(46, 17);
+            this.lblC.TabIndex = 8;
+            this.lblC.Text = "label1";
+            // 
+            // lblD
+            // 
+            this.lblD.AutoSize = true;
+            this.lblD.Location = new System.Drawing.Point(438, 192);
+            this.lblD.Name = "lblD";
+            this.lblD.Size = new System.Drawing.Size(46, 17);
+            this.lblD.TabIndex = 8;
+            this.lblD.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(802, 447);
+            this.ClientSize = new System.Drawing.Size(604, 447);
+            this.Controls.Add(this.lblD);
+            this.Controls.Add(this.lblC);
+            this.Controls.Add(this.lblB);
+            this.Controls.Add(this.lblA);
+            this.Controls.Add(this.bttnSalir);
+            this.Controls.Add(this.lblBienvenido);
+            this.Controls.Add(this.lblFin);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblPregunta);
             this.Controls.Add(this.lblNumPregunta);
@@ -159,6 +238,13 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button bttnIniciar;
         private System.Windows.Forms.Button bttnSigPregunta;
+        private System.Windows.Forms.Label lblFin;
+        private System.Windows.Forms.Label lblBienvenido;
+        private System.Windows.Forms.Button bttnSalir;
+        private System.Windows.Forms.Label lblA;
+        private System.Windows.Forms.Label lblB;
+        private System.Windows.Forms.Label lblC;
+        private System.Windows.Forms.Label lblD;
     }
 }
 
