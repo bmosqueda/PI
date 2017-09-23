@@ -8,6 +8,153 @@ namespace PI.Controllers
 {
     class CardFileController
     {
+        public void AddCard(Card card)
+        {
+            string path = Directory.GetCurrentDirectory() + "\\config";
+
+            Console.WriteLine("Checking directory exists...");
+            if (!Directory.Exists(path))
+            {
+                Console.WriteLine("Directory not found. Attempt  to create directory: " + path);
+                try
+                {
+                    Directory.CreateDirectory(path);
+                    Console.WriteLine("Directory created.");
+                }
+                catch (UnauthorizedAccessException e)
+                {
+                    UnauthorizedAccessException accessException = 
+                        new UnauthorizedAccessException("Fail to create directory. " + e.ToString(), e);
+                    throw accessException;
+                }
+            }
+            Console.WriteLine("Directory found.");
+
+            try
+            {
+                Console.WriteLine("Trying to save card object.");
+                File.AppendAllText(path + "\\JSONTest.json", JsonConvert.SerializeObject(card) + "\n\r");
+                Console.WriteLine("Operation successful.");
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                UnauthorizedAccessException accessException =
+                    new UnauthorizedAccessException("Fail to save card object in config file. " + e.ToString(), e);
+                throw accessException;
+            }
+        }
+
+        public Card ReadCard(int id)
+        {
+            string path = Directory.GetCurrentDirectory() + "\\config";
+
+            Console.WriteLine("Checking file exists...");
+            if (File.Exists(path + "\\JSONTest.json"))
+            {
+                Console.WriteLine("File found.\n\rTrying to read file");
+                string cardsJson = File.ReadAllText(path + "\\JSONTest.json");
+                Console.WriteLine("File readed.");
+
+                Console.WriteLine("Trying to retrive a especific object");
+
+                if (cardsJson != null)
+                {
+                    while (cardsJson.IndexOf('}') != -1)
+                    {
+                        int startIndex = cardsJson.IndexOf('{');
+                        int length = cardsJson.IndexOf('}') - startIndex + 1;
+                        string card = cardsJson.Substring(startIndex, length);
+                        cardsJson = cardsJson.Remove(startIndex, length);
+
+                        if (card.Contains("\"Id\":" + id.ToString()))
+                        {
+                            Console.WriteLine("Card found");
+                            return JsonConvert.DeserializeObject<Card>(card);
+                        }
+                        Console.WriteLine("Searching...");
+                    }
+                    Console.WriteLine("Card not found");
+                    return null;
+                }
+                Console.WriteLine("File not found.");
+            }
+            return null;
+        }
+
+        public Card Test2()
+        {
+            try
+            {
+                Random rnd = new Random();
+
+                List<Card> cardsInput = new List<Card>();
+                Console.WriteLine("List of cards created");
+                for (var i = 0; i < 20; i++)
+                {
+                    cardsInput.Add(new Card
+                    {
+                        Id = i + 1,
+                        CardValue = rnd.Next(1, 4),
+                        Question = "QUESTION",
+                        Answers = new string[] { "CORRECT", "FAIL", "FAIL", "FAIL" },
+                        CorrectAnswer = "CORRECT"
+                    });
+                    Console.WriteLine("Card added");
+                }
+
+                string path = Directory.GetCurrentDirectory() + "\\Test2";
+
+                if (!Directory.Exists(path))
+                {
+                    Console.WriteLine("Directory not  found, creating...");
+                    Directory.CreateDirectory(path);
+                    Console.WriteLine("Directory Created, Success");
+                }
+
+                Console.WriteLine("Trying to save cards in file.");
+                File.WriteAllText(path + "\\JSONTest.json", JsonConvert.SerializeObject(cardsInput));
+                Console.WriteLine("Process success");
+
+                Console.WriteLine("\n\r\n\r");
+
+                Console.WriteLine("Checking file exist ...");
+                if (File.Exists(path + "\\\\JSONTest.json"))
+                {
+                    Console.WriteLine("File found.\n\rTrying to read file");
+                    string cardsJson = File.ReadAllText(path + "\\JSONTest.json");
+                    Console.WriteLine("File readed.");
+
+                    Console.WriteLine("Trying to retrive a especific object");
+                    Console.WriteLine(cardsJson);
+                    
+                    if (cardsJson != null)
+                    {
+                        while (cardsJson.IndexOf('}') != -1)
+                        {
+                            int startIndex = cardsJson.IndexOf('{');
+                            int length = cardsJson.IndexOf('}') - startIndex + 1;
+                            string s = cardsJson.Substring(startIndex, length);
+                            cardsJson = cardsJson.Remove(startIndex, length);
+                            Console.WriteLine("Object retrived: " + s);
+                            Console.WriteLine("Rest objects" + cardsJson);
+
+                            if (s.Contains("\"Id\":17"))
+                            {
+                                Console.WriteLine("Card found");
+                                return JsonConvert.DeserializeObject<Card>(s);
+                            }
+                        }
+                        Console.WriteLine("Card not found");
+                        return null;
+                    }
+                    Console.WriteLine("File content error, empty JSON");
+                }
+
+
+            } catch (Exception e) { Console.WriteLine(e.ToString()); }
+            return null; 
+        }
+
         public void Test1_Read()
         {
             try

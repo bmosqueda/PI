@@ -16,8 +16,7 @@ namespace PI
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             CardFileController fileController = new CardFileController();
-            fileController.Test1_Write();
-            fileController.Test1_Read();
+            fileController.Test2();
         }
     }
 }
