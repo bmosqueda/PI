@@ -1,4 +1,4 @@
-#Proyecto de desarrollo
+# Proyecto de desarrollo
 
 `Corregir tiempo, agregar fechas.`
 ## 1. Iniciacion del proyecto
