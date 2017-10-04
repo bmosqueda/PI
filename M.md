@@ -2,7 +2,7 @@
 
 ## `Corregir tiempo, agregar fechas.`
 ### 1. Iniciacion del proyecto
-- 1.1 Recaudacion de informacion. ~**1 semana**~
+- 1.1 Recaudacion de informacion. ~**1 semana** 12/Agosto/2017~
 	- 1.1.1 Diseño de la guia del temario para realizar el grupo.
 	- 1.1.2 Seleccion de los participantes en los grupos.
 	- 1.1.3 Realizacion del grupo.
