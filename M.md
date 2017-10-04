@@ -1,7 +1,7 @@
 # Proyecto de desarrollo
 
-`Corregir tiempo, agregar fechas.`
-## 1. Iniciacion del proyecto
+## `Corregir tiempo, agregar fechas.`
+### 1. Iniciacion del proyecto
 - 1.1 Recaudacion de informacion. ~**1 semana**~
 	- 1.1.1 Diseño de la guia del temario para realizar el grupo.
 	- 1.1.2 Seleccion de los participantes en los grupos.
@@ -14,7 +14,7 @@
 - 1.3 Aprovacion del proyecto. ~**1 dia.**~
 	- 1.3.1Entrega del acta con la presencia de todos los integrantes del equipo.
 
-## 2. Analisis de requerimientos.
+### 2. Analisis de requerimientos.
 - 2.1 Entrevista con experto en eseñanza de nivel basico.
 - 2.2 Asesorias con perito en desarrollo de videojuegos.
 - 2.3 Analisis de software de caracteristicas similares.
@@ -24,7 +24,7 @@
 - 2.5 Redaccion del documento de requerimientos.
 - 2.6 *Esta cosa para la planeacion, requerimiento de proyecto* -> `Nombre distinto.`
 
-## 3. Diseño del software.
+### 3. Diseño del software.
 - 3.1 Elaboracion de diagramas UML.
 	- 3.1.1 Diagrama de casos de uso.
 	- 3.1.2 Diagrama de clases.
@@ -37,7 +37,7 @@
 - 3.3 Diseño de preguntas.
 - 3.4 Diseño de BD.
 
-## 4. Modelado, codificacion y ensamble de modulos.
+### 4. Modelado, codificacion y ensamble de modulos.
 - 4.1 Modelado de personajes 2D.
 - 4.2 Elaboracion de sprites.
 	- 4.2.1 Elaboracion de sprites de cartas.
