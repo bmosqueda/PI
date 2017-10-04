@@ -38,8 +38,10 @@
 - 3.4 Diseño de BD.
 
 ## 4. Modelado, codificacion y ensamble de modulos.
-4.1 Modelado de personajes 2D.
-4.2 Elaboracion de sprites.
-	4.2.1 Elboracion del sprites de cartas.
-	4.2.2 El
-- 
+- 4.1 Modelado de personajes 2D.
+- 4.2 Elaboracion de sprites.
+	- 4.2.1 Elaboracion de sprites de cartas.
+	- 4.2.2 Elaboracion de sprites de escenarios.
+- 4.3 Codifiacion del modulo de servidor del juego.
+	- 4.3.1 Creacion de BD en el manejador de BD MariaDB.
+	- Codificacion de servidor.
