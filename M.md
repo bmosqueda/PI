@@ -37,4 +37,9 @@
 - 3.3 Diseño de preguntas.
 - 3.4 Diseño de BD.
 
-## 4. Codificacion.
+## 4. Modelado, codificacion y ensamble de modulos.
+4.1 Modelado de personajes 2D.
+4.2 Elaboracion de sprites.
+	4.2.1 Elboracion del sprites de cartas.
+	4.2.2 El
+- 
