@@ -19,10 +19,10 @@
 - 2.2 Asesorias con perito en desarrollo de videojuegos.
 - 2.3 Analisis de software de caracteristicas similares.
 - 2.4 Seleccion de requerimientos del software.
-	- 2.4.1 Descarte de ~informacion que no es requeriminento~ -> `Nombre distinto.`
+	- 2.4.1 Descarte de *informacion que no es requeriminento* -> `Nombre distinto.`
 	- 2.4.2 Division de requerimientos por categorias.
 - 2.5 Redaccion del documento de requerimientos.
-- 2.6 ~Esta cosa para la planeacion, requerimiento de proyecto~ -> `Nombre distinto.`
+- 2.6 *Esta cosa para la planeacion, requerimiento de proyecto* -> `Nombre distinto.`
 
 ## 3. Diseño del software.
 - 3.1 Elaboracion de diagramas UML.
