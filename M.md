@@ -2,16 +2,16 @@
 
 `Corregir tiempo, agregar fechas.`
 ## 1. Iniciacion del proyecto
-- 1.1 Recaudacion de informacion. **1 semana**
+- 1.1 Recaudacion de informacion. ~**1 semana**~
 	- 1.1.1 Diseño de la guia del temario para realizar el grupo.
 	- 1.1.2 Seleccion de los participantes en los grupos.
 	- 1.1.3 Realizacion del grupo.
-	- 1.1.4 Entrevistas con profesores **3 dias**
-	- 1.1.5 Investigacion de lineamientos de la SE. **5 dias**
+	- 1.1.4 Entrevistas con profesores ~**3 dias**~
+	- 1.1.5 Investigacion de lineamientos de la SE. ~**5 dias**~
 - 1.2 Redaccion del acta constitutiva.
-	- 1.2.1 Analisis de la informacion obtenida y redaccion del acta. **14 dias**
+	- 1.2.1 Analisis de la informacion obtenida y redaccion del acta. ~**14 dias**~
 	- 1.2.2 Revisiones previas a la entrega.
-- 1.3 Aprovacion del proyecto. **1 dia.**
+- 1.3 Aprovacion del proyecto. ~**1 dia.**~
 	- 1.3.1Entrega del acta con la presencia de todos los integrantes del equipo.
 
 ## 2. Analisis de requerimientos.
